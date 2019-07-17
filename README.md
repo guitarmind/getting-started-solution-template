@@ -71,8 +71,8 @@ _Note:_ Deployment strategy options currently only apply to Webservice/Websocket
 
 ```yaml
 options:
-  merge: true, # To keep all existing items from solution that are not present in this template
-  safeNamespace: vendor # Indicates the items with this prefix will not get remove or updated upon update
+  merge: true,
+  safeNamespace: vendor
 ```
 
 Fieldname     | Format                | Default value        | Description
