@@ -9,7 +9,7 @@ events:
       Event triggered by this service.
       Set a default script to call the hello operation defined above.
     default_script: |
-      -- return Mycustomservice.hello() would work however would break is user change service default script key.
+      -- return Mycustomservice.hello() would work too, however it would break if user changes the service script_key.
       return murano.service_call(context.service, "hello")
 
 parameters:
