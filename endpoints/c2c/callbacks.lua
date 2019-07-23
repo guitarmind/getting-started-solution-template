@@ -1,7 +1,7 @@
 -- Configure here the callbacks logic from the remote cloud.
 -- Set the authentication logic in the authentication module.
 
---#ENDPOINT POST /api/callback
+--#ENDPOINT POST /c2c/callback
 -- A generic handler for device information changes
 local peer = require('authentication').getPeer(request)
 
@@ -16,4 +16,4 @@ local options = {
   request_id = request.request_id,
 }
 
-require('cloud2murano').sync(request.body, options)
+require("c2c.cloud2murano").sync(request.body, options)
