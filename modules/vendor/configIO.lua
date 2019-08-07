@@ -5,7 +5,7 @@
 -- This file is in the 'vendor' safeNamespace and changes will persists upon template updates
 
 local config_io = [[
- {
+{
   "channels": {
     "humidity": {
       "display_name": "Humidity",
@@ -37,5 +37,5 @@ local config_io = [[
 
 return {
   timestamp = 1563939215, -- Unix timestamp of this schema version update
-	config_io = config_io,
+  config_io = config_io,
 }
