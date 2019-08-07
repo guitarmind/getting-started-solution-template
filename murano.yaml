@@ -2,13 +2,12 @@
 formatversion: 1.0.0
 
 info:
-  name: OpenWeatherApi
+  name: ExoInsight
   description: |
-    Open Weather API integration as a Murano Product.
-    Each configured cities will behave as a device emitting weather data
+    IoT connector for Scalable Data Transformation, Machine Learning and Deep Learning on IoT data.
   authors:
     - 'exosite'
-  version: 0.1.0
+  version: 0.0.1
 
 options:
   safeNamespace: vendor
